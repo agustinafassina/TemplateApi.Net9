@@ -2,10 +2,10 @@
 This folder contains the main API project with all controllers and configurations. It serves as the core application for client interactions.<br>
 This is a copy of Template.Api.Net8.
 
-### Api Diagram
+### Api Diagram 
 <img src="api-diagram.png" alt="Logo del proyecto" width="400" height="450">
 
-### Authorization in the Api
+### 🔐 Authorization in the Api
 It implements JWT authentication to secure endpoints, validating issuer, audience, and signature, allowing access only to authorized users.
 ```
 [Authorize(AuthenticationSchemes = "Auth0App1")]
