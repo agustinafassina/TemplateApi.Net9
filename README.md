@@ -1,7 +1,8 @@
 ## Template.Api.Net9
 This folder contains the main API project with all controllers and configurations. It serves as the core application for client interactions.<br>
-This is a copy of Template.Api.Net8.
+This is a copy of my Template.Api.Net8: https://github.com/agustinafassina/TemplateApi.Net8
 
+## 📄API Reference
 ### Api Diagram 
 <img src="api-diagram.png" alt="Logo del proyecto" width="400" height="450">
 
