@@ -3,10 +3,10 @@ This folder contains the main API project with all controllers and configuration
 This is a copy of my Template.Api.Net8: https://github.com/agustinafassina/TemplateApi.Net8
 
 ## 📄API Reference
-### Api Diagram 
+### Diagram 
 <img src="api-diagram.png" alt="Logo del proyecto" width="400" height="450">
 
-### 🔐 Authorization in the Api
+### 🔐 Authorization
 It implements JWT authentication to secure endpoints, validating issuer, audience, and signature, allowing access only to authorized users.
 ```
 [Authorize(AuthenticationSchemes = "Auth0App1")]
@@ -24,13 +24,13 @@ Environment variables setting (auth0 in this case)
   }
 ```
 
-## Dotnet build and run
+### 🛠️Dotnet build and run
 ```
 dotnet build
 dotnet run
 ```
 
-## Docker build and run
+### 🛠️Docker build and run
 
 ```
 # Docker build
