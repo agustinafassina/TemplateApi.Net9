@@ -1,4 +1,8 @@
 ## Template.Api.Net9
+> [!WARNING]
+> **This template is deprecated and no longer maintained.**
+> Please use the new version for .NET 10: [TemplateApi.Net10](https://github.com/agustinafassina/TemplateApi.Net10)
+
 This folder contains the main API project with all controllers and configurations. It serves as the core application for client interactions.<br>
 This is a copy of my Template.Api.Net8: https://github.com/agustinafassina/TemplateApi.Net8
 
@@ -39,5 +43,3 @@ docker build -f Dockerfile -t api .
 docker run -d -p 8787:80 -e "ASPNETCORE_ENVIRONMENT=Development" --name api api
 # api tests http://localhost:8787/swagger/index.html
 ```
-
-
